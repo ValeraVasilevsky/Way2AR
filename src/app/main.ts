@@ -6,6 +6,8 @@ import { router } from "./router";
 
 import App from "./app.vue";
 
+import "unfonts.css";
+import "shared/ui/theme/variables.css";
 import "./style.css";
 
 const app = createApp(App);
