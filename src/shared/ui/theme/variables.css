@@ -1,8 +1,11 @@
 :root {
   --palette-black: #101010;
+  --palette-black-70: #101010b1;
   --palette-gray: #ccc;
 
   --spacing-s: 8px;
   --spacing-m: 16px;
   --spacing-l: 24px;
+
+  --transition: 0.3s;
 }

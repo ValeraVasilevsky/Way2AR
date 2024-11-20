@@ -1,0 +1,10 @@
+.link {
+  color: var(--palette-black-70);
+  transition: var(--transition);
+
+  @media (--hover) {
+    &:hover {
+      color: var(--palette-black);
+    }
+  }
+}

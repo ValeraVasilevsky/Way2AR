@@ -1,19 +1,14 @@
 <template>
   <header :class="styles.header">
     <div :class="styles.links">
-      <RouterLink to="/">
-        <Typography variant="text-xl-0" weight="400"> Врачи </Typography>
-      </RouterLink>
-
-      <RouterLink to="/">
-        <Typography variant="text-xl-0" weight="400"> Медсестры </Typography>
-      </RouterLink>
+      <Link to="/"> Врачи </Link>
+      <Link to="/nurses"> Медсестры </Link>
     </div>
   </header>
 </template>
 
 <script setup lang="ts">
-import { Typography } from "shared/ui";
+import { Link } from "shared/ui";
 
 import styles from "./styles.module.css";
 </script>
