@@ -1,6 +1,6 @@
 <template>
-  <RouterLink :to="props.to">
-    <Typography variant="text-xl-0" weight="400" :class="styles.link">
+  <RouterLink :to="props.to" :class="styles.link">
+    <Typography variant="text-xl-0" weight="400">
       <slot />
     </Typography>
   </RouterLink>
