@@ -14,8 +14,13 @@ export const router = createRouter({
       children: [
         {
           path: "",
-          name: "main",
-          component: (): Component => import("pages/main/index.vue"),
+          name: "doctors",
+          component: (): Component => import("pages/doctors/index.vue"),
+        },
+        {
+          path: "nurses",
+          name: "nurses",
+          component: (): Component => import("pages/nurses/index.vue"),
         },
       ],
     },

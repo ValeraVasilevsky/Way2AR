@@ -1,5 +1,5 @@
 <template>
-  <div>main zxczxczxc</div>
+  <div>nurses</div>
 </template>
 
 <script setup lang="ts"></script>
