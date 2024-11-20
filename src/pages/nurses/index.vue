@@ -19,7 +19,6 @@ import {
   type TableColumn,
   ErrorPlaceholder,
   Loader,
-  Badge,
 } from "shared/ui";
 import { AxiosError } from "axios";
 
