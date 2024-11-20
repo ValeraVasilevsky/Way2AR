@@ -4,7 +4,6 @@ import autoprefixer from "autoprefixer";
 import nested from "postcss-nested";
 import customMedia from "postcss-custom-media";
 import postcssGlobalData from "@csstools/postcss-global-data";
-import tailwind from "tailwindcss";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -17,7 +16,6 @@ const config = {
     autoprefixer,
     customMedia,
     nested,
-    tailwind,
   ],
 };
 

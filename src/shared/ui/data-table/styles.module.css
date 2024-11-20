@@ -38,7 +38,10 @@
       padding: 10px var(--spacing-l);
       border-bottom: 1px solid var(--palette-gray);
 
-      & .row-column {
+      & .cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         & p {
           color: var(--palette-black);
           font-weight: bold;

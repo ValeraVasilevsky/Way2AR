@@ -1,0 +1,7 @@
+.placeholder {
+  border-radius: var(--spacing-l);
+  color: var(--palette-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
